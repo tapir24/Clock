@@ -1,0 +1,11 @@
+body{
+    background: rgb(0, 79, 170);
+}
+h1,h2{
+    text-align: center;
+    color: honeydew;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-weight: 100;
+}
