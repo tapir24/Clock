@@ -9,3 +9,23 @@ h1,h2{
     text-transform: uppercase;
     font-weight: 100;
 }
+#myclockdisplay{
+    transition: transform 0.5s ease-out;
+    letter-spacing: 7px;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 45%;
+    margin: auto;
+}
+
+#myclockdisplay:hover{
+    background-color: rgb(143, 203, 255);
+    color: beige;
+    transform: scale(1.2);
+    border: 2px solid white;
+}
